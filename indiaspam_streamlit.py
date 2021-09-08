@@ -8,13 +8,13 @@ import base64
 
 #Image
 from PIL import Image
-image=Image.open('/Users/brl.314/Downloads/Brainly_logo.png')
+image=Image.open('Brainly_logo.png')
 st.image(image,use_column_width=True)
 
 # Upload model
 import joblib
 
-model = joblib.load(open("/Users/brl.314/Downloads/india_spam_aug_4.pkl","rb"))
+model = joblib.load(open("india_spam_aug2.pkl","rb"))
 
 @st.cache(suppress_st_warning=True)
 
