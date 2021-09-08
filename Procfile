@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run indiaspam_streamlit.py
+web: sh setup.sh && streamlit run indiaspam.py
