@@ -73,7 +73,7 @@ class FileDownloader(object):
 
 def main():
     with st.form(key='India Question Spam Classifier'):
-        st.title('India Spam Classifier')
+        st.title('India Question Spam Classifier')
         uploaded_file = st.file_uploader("Upload a CSV/XLSX file",type=['csv','xlsx'])
         if uploaded_file is not None:
             df = pd.read_csv(uploaded_file)
