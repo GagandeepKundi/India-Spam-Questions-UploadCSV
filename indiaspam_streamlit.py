@@ -14,7 +14,7 @@ st.image(image,use_column_width=True)
 # Upload model
 import joblib
 
-model = joblib.load(open("india_spam_aug2.pkl","rb"))
+model = joblib.load(open("india_spam_aug_2.pkl","rb"))
 
 @st.cache(suppress_st_warning=True)
 
